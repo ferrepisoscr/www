@@ -15,7 +15,8 @@ font-size:1px;
 }
 body{
 padding:0 20px;
-background:#d54220;
+background-size:contain;
+background-image:url('images/bg.png');
 }
 .section{
 display:flex;
@@ -48,10 +49,8 @@ padding:0 20px;
 border-radius:5px;
 background:#ffffff;
 }
-.fa-regular,
-.fa-brands,
-.fa-solid{
-margin:0 15px 0 0;
+i{
+margin: 0 15px 0 0;
 }
 a.white{
 width:380px;
